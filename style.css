@@ -1,19 +1,21 @@
 @import "reset.css";
 
 header {
-  background-color: rgb(71, 68, 68);
+  background-color: rgb(68,68,68);
   width: 100%;
   height: 100px;
+  color: rgb(112,112,112);
 }
 
 
 ul {
-  display: block;
-  text-align: center;
+  display: inline-block;
+  left: 16.5%;
   margin: 0 auto;
   padding: 15px 0 0 0;
   min-width: 450px;
   height: 100px;
+  position: relative;
 }
 
 
@@ -22,10 +24,11 @@ ul {
 li {
   color: rgb(131, 122, 122);
   display: inline-block;
-  padding: 26px;
-  bottom: 29px;
-  margin: 30px;
+  padding: 40px;
+  bottom: 30px;
+  margin: 20px;
   position: relative; 
+  left: 0%;
 }
 
  main > div > img {
@@ -52,7 +55,6 @@ main > article {
 main > article > img {
   float:left;
 }
-
 h2 {
   display: inline;
   position: relative;
@@ -60,35 +62,31 @@ h2 {
   font-weight: bold;
   left: 2%;
 }
-
 main > article > p {
   position: relative;
-  width: 460px;
+  width: 450px;
   height: 300px;
   overflow: scroll;
   left: 2%;
 
 }
-
 button {
   background-color: rgb(22, 21, 21);
   color: rgb(231, 220, 220);
   position: relative;
-  width: 245px;
+  width: 200px;
   padding: 15px 0 15px 0;
-  margin: 35px 0 0 0;
-  font-size: 14px;
+  margin: 25px 0 0 0;
+  font-size: 16px;
   left: 2%;
-  border-radius: 12px;
+  border-radius: 0px;
 }
-
 button:hover {
   background-color: rgb(112, 28, 28);
   color: rgb(163, 154, 154);
 }
-
 footer > div {
   background-color: rgb(53, 50, 50);
-  margin: 30px 0 0 0;
-  height: 80px;
+  margin: 20px 0 0 0;
+  height: 90px;
 }
