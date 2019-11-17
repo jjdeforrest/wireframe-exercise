@@ -1,0 +1,92 @@
+@import "reset.css";
+
+header {
+  background-color: rgb(68,68,68);
+  width: 100%;
+  height: 100px;
+  color: rgb(112,112,112);
+}
+
+
+ul {
+  display: inline-block;
+  left: 16.5%;
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+  min-width: 450px;
+  height: 100px;
+  position: relative;
+}
+
+
+
+
+li {
+  color: rgb(131, 122, 122);
+  display: inline-block;
+  padding: 40px;
+  bottom: 30px;
+  margin: 20px;
+  position: relative; 
+  left: 0%;
+}
+
+ main > div > img {
+  position: relative;
+  left: 15%; 
+  margin: 30px;
+  
+}
+section > div {
+  display: inline-block;
+  position: relative;
+  left: 16%;
+  margin: 0 auto;
+}
+section > div > img {
+  margin: 10px 15px;
+}
+main > article {
+  position: relative;
+  left: 17%;
+  margin: 0 auto;
+}
+
+main > article > img {
+  float:left;
+}
+h2 {
+  display: inline;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  left: 2%;
+}
+main > article > p {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  overflow: scroll;
+  left: 2%;
+
+}
+button {
+  background-color: rgb(22, 21, 21);
+  color: rgb(231, 220, 220);
+  position: relative;
+  width: 200px;
+  padding: 15px 0 15px 0;
+  margin: 25px 0 0 0;
+  font-size: 16px;
+  left: 2%;
+  border-radius: 0px;
+}
+button:hover {
+  background-color: rgb(112, 28, 28);
+  color: rgb(163, 154, 154);
+}
+footer > div {
+  background-color: rgb(53, 50, 50);
+  margin: 20px 0 0 0;
+  height: 90px;
+}
